@@ -1,0 +1,717 @@
+TintegratedCSapp
+v7
+r0
+t311630455.290351
+cCheck dependencies
+cCpResource build/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/Info.plist integratedCSapp-Info.plist
+cCompileXIB /Users/ethan/Documents/integratedCSapp/MainWindow.xib
+cCompileXIB /Users/ethan/Documents/integratedCSapp/RootViewController.xib
+cCompileXIB /Users/ethan/Documents/integratedCSapp/sizingViewController.xib
+cCompileXIB /Users/ethan/Documents/integratedCSapp/MapView.xib
+cProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch.gch integratedCSapp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch.gch integratedCSapp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/main.o /Users/ethan/Documents/integratedCSapp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSappAppDelegate.o /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/RootViewController.o /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/sizingViewController.o /Users/ethan/Documents/integratedCSapp/sizingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/Webservices.o /Users/ethan/Documents/integratedCSapp/Webservices.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/XMLParser.o /Users/ethan/Documents/integratedCSapp/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/MapView.o /Users/ethan/Documents/integratedCSapp/MapView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/main.o /Users/ethan/Documents/integratedCSapp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSappAppDelegate.o /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/RootViewController.o /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp normal armv6
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/sizingViewController.o /Users/ethan/Documents/integratedCSapp/sizingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/Webservices.o /Users/ethan/Documents/integratedCSapp/Webservices.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/XMLParser.o /Users/ethan/Documents/integratedCSapp/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/MapView.o /Users/ethan/Documents/integratedCSapp/MapView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp normal armv7
+cCreateUniversalBinary /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp normal "armv6 armv7"
+cGenerateDSYMFile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app.dSYM /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp
+cProcessProductPackaging "/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision" /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision
+cTouch /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent
+cCodeSign /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
+c000000004C6DE9E30000000000000110
+t1282271715
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+c000000004C578FA900000000000001A7
+t1280806825
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+c000000004C578FA900000000000001E5
+t1280806825
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A51050000000000345F00
+t1280987397
+s3432192
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A52B100000000003E1EF0
+t1280987825
+s4071152
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A527F0000000000001466
+t1280987775
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C62427000000000000009CD
+t1281507952
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C62430F0000000002EBC2B0
+t1281508111
+s49005232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/Availability.h
+c000000004C57A57A0000000000001A5C
+t1280812410
+s6748
+
+N/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.h
+c000000004CE2C96400000000000001F8
+t1289931108
+s504
+i<UIKit/UIKit.h>
+i"sizingViewController.h"
+i"MapView.h"
+
+N/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m
+c000000004CE2C947000000000000126A
+t1289931079
+s4714
+i"RootViewController.h"
+
+N/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.h
+c000000004CE2B5C800000000000001EA
+t1289926088
+s490
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m
+c000000004CE2B5C80000000000000ABC
+t1289926088
+s2748
+i"integratedCSappAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/ethan/Documents/integratedCSapp/MainWindow.xib
+c000000004CE2C3A100000000000071CF
+t1289929633
+s29135
+
+N/Users/ethan/Documents/integratedCSapp/MapView.h
+c000000004CE2C84200000000000000ED
+t1289930818
+s237
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/integratedCSapp/MapView.m
+c000000004CE2C88A0000000000000624
+t1289930890
+s1572
+i"MapView.h"
+
+N/Users/ethan/Documents/integratedCSapp/MapView.xib
+c000000004CE2CC020000000000004193
+t1289931778
+s16787
+
+N/Users/ethan/Documents/integratedCSapp/RootViewController.xib
+c000000004CE2C9CD0000000000006087
+t1289931213
+s24711
+
+N/Users/ethan/Documents/integratedCSapp/Webservices.h
+c000000004CD6CFC50000000000000123
+t1289146309
+s291
+i<Foundation/Foundation.h>
+
+N/Users/ethan/Documents/integratedCSapp/Webservices.m
+c000000004CD6EE3200000000000002A8
+t1289154098
+s680
+i"Webservices.h"
+i"XMLParser.h"
+
+N/Users/ethan/Documents/integratedCSapp/XMLParser.h
+c000000004CD6EE170000000000000178
+t1289154071
+s376
+i<Foundation/Foundation.h>
+
+N/Users/ethan/Documents/integratedCSapp/XMLParser.m
+c000000004CD6F3970000000000000512
+t1289155479
+s1298
+i"XmlParser.h"
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+t1289937655
+s442
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app.dSYM
+t1289937654
+s102
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/Info.plist
+t1289929772
+s761
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/MainWindow.nib
+t1289929774
+s2494
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/MapView.nib
+t1289931789
+s1951
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/PkgInfo
+t1289929772
+s8
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist
+t1289929773
+s485
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/RootViewController.nib
+t1289931529
+s1848
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision
+t1289929827
+s7186
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp
+t1289937654
+s74832
+
+N/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/sizingViewController.nib
+t1289937654
+s4126
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/MapView.o
+t1289930917
+s34816
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/RootViewController.o
+t1289937654
+s43240
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/Webservices.o
+t1289929777
+s8280
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/XMLParser.o
+t1289929777
+s11052
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp
+t1289937654
+s34084
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp.LinkFileList
+c000000004CE2C8A500000000000003DF
+t1289930917
+s991
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSappAppDelegate.o
+t1289937654
+s49392
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/main.o
+t1289929776
+s6448
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/sizingViewController.o
+t1289937654
+s48372
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/MapView.o
+t1289930917
+s34788
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/RootViewController.o
+t1289937654
+s43080
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/Webservices.o
+t1289929777
+s8244
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/XMLParser.o
+t1289929777
+s10964
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp
+t1289937654
+s33872
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp.LinkFileList
+c000000004CE2C8A500000000000003DF
+t1289930917
+s991
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSappAppDelegate.o
+t1289937654
+s49308
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/main.o
+t1289929777
+s6432
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/sizingViewController.o
+t1289937654
+s47736
+
+N/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent
+t1289929778
+s430
+
+N/Users/ethan/Documents/integratedCSapp/integratedCSapp_Prefix.pch
+c000000004CE2B5C80000000000000150
+t1289926088
+s336
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/integratedCSapp/main.m
+c000000004CE2B5C80000000000000170
+t1289926088
+s368
+i<UIKit/UIKit.h>
+
+N/Users/ethan/Documents/integratedCSapp/sizingViewController.h
+c000000004CE2E2F5000000000000029D
+t1289937653
+s669
+i<UIKit/UIKit.h>
+i"Webservices.h"
+
+N/Users/ethan/Documents/integratedCSapp/sizingViewController.m
+c000000004CE2E2EF0000000000000B1D
+t1289937647
+s2845
+i"sizingViewController.h"
+
+N/Users/ethan/Documents/integratedCSapp/sizingViewController.xib
+c000000004CE2E2E30000000000006944
+t1289937635
+s26948
+
+N/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision
+c000000004CD02D6E0000000000001C12
+t1288711534
+s7186
+
+N/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch.gch
+t1289929776
+s10294832
+
+N/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch.gch
+t1289929776
+s9831984
+
+NintegratedCSapp-Info.plist
+c000000004CE2C42C0000000000000378
+t1289929772
+s888
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311630453#311630453#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCodeSign /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+s311630455.026356
+e311630455.290291
+r1
+xCodeSign
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+lSLF07#2@49"CodeSign build/Debug-iphoneos/integratedCSapp.app311630455#311630455#0(0"0(0#0#79"/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app8612720224#686"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: KEVIN FAST (AHNKRL8UWU)" --resource-rules=/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist --entitlements /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/MapView.o /Users/ethan/Documents/integratedCSapp/MapView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311623717.508920
+e311623717.638274
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/MapView.o
+x/Users/ethan/Documents/integratedCSapp/MapView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/MapView.m: In function '-[MapView done]':
+o/Users/ethan/Documents/integratedCSapp/MapView.m:57: warning: conflicting types for '-(void)done'
+o/Users/ethan/Documents/integratedCSapp/MapView.h:16: warning: previous declaration of '-(id)done'
+lSLF07#2@56"Compile /Users/ethan/Documents/integratedCSapp/MapView.m311623717#311623717#0(277"/Users/ethan/Documents/integratedCSapp/MapView.m: In function '-[MapView done]':/Users/ethan/Documents/integratedCSapp/MapView.m:57: warning: conflicting types for '-(void)done'/Users/ethan/Documents/integratedCSapp/MapView.h:16: warning: previous declaration of '-(id)done'2(22@35"Conflicting types for '-(void)done'311623717#81#98#0(6@48"/Users/ethan/Documents/integratedCSapp/MapView.m311623690#57#0#57#0#25"conflicting types for '*'0(22@35"Previous declaration of '-(id)done'311623717#179#98#0(6@48"/Users/ethan/Documents/integratedCSapp/MapView.h311623618#16#0#16#0#0"0(0#0#48"/Users/ethan/Documents/integratedCSapp/MapView.m8607382784#1890"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/MapView.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/MapView.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/RootViewController.o /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311630454.155843
+e311630454.344652
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/RootViewController.o
+x/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m311630454#311630454#0(0"0(0#0#67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m8603704672#1920"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/Webservices.o /Users/ethan/Documents/integratedCSapp/Webservices.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311622577.009514
+e311622577.078561
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/Webservices.o
+x/Users/ethan/Documents/integratedCSapp/Webservices.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/Webservices.m: In function '+[Webservices callRestService:]':
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/ethan/Documents/integratedCSapp/Webservices.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: incomplete implementation of class 'Webservices'
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: method definition for '+callRestService::' not found
+lSLF07#2@60"Compile /Users/ethan/Documents/integratedCSapp/Webservices.m311622577#311622577#0(541"/Users/ethan/Documents/integratedCSapp/Webservices.m: In function '+[Webservices callRestService:]':/Users/ethan/Documents/integratedCSapp/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol/Users/ethan/Documents/integratedCSapp/Webservices.m: At top level:/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: incomplete implementation of class 'Webservices'/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: method definition for '+callRestService::' not found4(22@71"Class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol311622577#101#138#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#21#0#21#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:311622577#239#68#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#0#0#0#0#0"0(22@48"Incomplete implementation of class 'Webservices'311622577#307#115#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#30#0#30#0#38"incomplete implementation of class '*'0(22@52"Method definition for '+callRestService::' not found311622577#422#119#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#30#0#30#0#35"method definition for '*' not found0(0#0#52"/Users/ethan/Documents/integratedCSapp/Webservices.m8612715968#1898"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Webservices.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/Webservices.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/XMLParser.o /Users/ethan/Documents/integratedCSapp/XMLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311622577.078658
+e311622577.149454
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/XMLParser.o
+x/Users/ethan/Documents/integratedCSapp/XMLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: '...' as arguments.)
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@58"Compile /Users/ethan/Documents/integratedCSapp/XMLParser.m311622577#311622577#0(991"/Users/ethan/Documents/integratedCSapp/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: (Messages without a matching method signature/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: '...' as arguments.)/Users/ethan/Documents/integratedCSapp/XMLParser.m: At top level:/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@46"'NSString' may not respond to '-appendString:'311622577#104#111#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#35#0#35#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311622577#215#110#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#35#0#35#0#0"0(23@13"At top level:311622577#516#66#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#0#0#0#0#0"0(22@136"Property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation311622577#582#201#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#40#0#40#0#0"0(22@143"Property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation311622577#783#208#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#40#0#40#0#0"0(0#0#50"/Users/ethan/Documents/integratedCSapp/XMLParser.m8615726912#1894"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/XMLParser.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/XMLParser.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSappAppDelegate.o /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311630454.154848
+e311630454.351028
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSappAppDelegate.o
+x/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m311630454#311630454#0(0"0(0#0#75"/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m7599087897852010496#1936"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSappAppDelegate.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/main.o /Users/ethan/Documents/integratedCSapp/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311622576.747554
+e311622576.911701
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/main.o
+x/Users/ethan/Documents/integratedCSapp/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/ethan/Documents/integratedCSapp/main.m311622576#311622576#0(0"0(0#0#45"/Users/ethan/Documents/integratedCSapp/main.m8615767712#1884"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/main.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/sizingViewController.o /Users/ethan/Documents/integratedCSapp/sizingViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311630454.344757
+e311630454.459409
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/sizingViewController.o
+x/Users/ethan/Documents/integratedCSapp/sizingViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m: In function '-[sizingViewController pollServer:]':
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:20: warning: format not a string literal and no format arguments
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: '...' as arguments.)
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@69"Compile /Users/ethan/Documents/integratedCSapp/sizingViewController.m311630454#311630454#0(1193"/Users/ethan/Documents/integratedCSapp/sizingViewController.m: In function '-[sizingViewController pollServer:]':/Users/ethan/Documents/integratedCSapp/sizingViewController.m:20: warning: format not a string literal and no format arguments/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: (Messages without a matching method signature/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: '...' as arguments.)/Users/ethan/Documents/integratedCSapp/sizingViewController.m: At top level:/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@51"Format not a string literal and no format arguments311630454#114#127#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#20#0#20#0#51"format not a string literal and no format arguments0(22@52"'Webservices' may not respond to '+callRestService:'311630454#241#128#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#21#0#21#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311630454#369#121#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#21#0#21#0#0"0(23@13"At top level:311630454#703#77#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#0#0#0#0#0"0(22@126"Property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation311630454#780#203#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#111#0#111#0#0"0(22@133"Property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation311630454#983#210#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#111#0#111#0#0"0(0#0#61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m8612656800#1916"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/sizingViewController.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/sizingViewController.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/MapView.o /Users/ethan/Documents/integratedCSapp/MapView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311623717.712461
+e311623717.803135
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/MapView.o
+x/Users/ethan/Documents/integratedCSapp/MapView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/MapView.m: In function '-[MapView done]':
+o/Users/ethan/Documents/integratedCSapp/MapView.m:57: warning: conflicting types for '-(void)done'
+o/Users/ethan/Documents/integratedCSapp/MapView.h:16: warning: previous declaration of '-(id)done'
+lSLF07#2@56"Compile /Users/ethan/Documents/integratedCSapp/MapView.m311623717#311623717#0(277"/Users/ethan/Documents/integratedCSapp/MapView.m: In function '-[MapView done]':/Users/ethan/Documents/integratedCSapp/MapView.m:57: warning: conflicting types for '-(void)done'/Users/ethan/Documents/integratedCSapp/MapView.h:16: warning: previous declaration of '-(id)done'2(22@35"Conflicting types for '-(void)done'311623717#81#98#0(6@48"/Users/ethan/Documents/integratedCSapp/MapView.m311623690#57#0#57#0#25"conflicting types for '*'0(22@35"Previous declaration of '-(id)done'311623717#179#98#0(6@48"/Users/ethan/Documents/integratedCSapp/MapView.h311623618#16#0#16#0#0"0(0#0#48"/Users/ethan/Documents/integratedCSapp/MapView.m8606473600#1890"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/MapView.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/MapView.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/RootViewController.o /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311630454.438212
+e311630454.574515
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/RootViewController.o
+x/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m311630454#311630454#0(0"0(0#0#67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m7599087897852010496#1920"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/RootViewController.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/Webservices.o /Users/ethan/Documents/integratedCSapp/Webservices.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311622577.502280
+e311622577.581402
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/Webservices.o
+x/Users/ethan/Documents/integratedCSapp/Webservices.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/Webservices.m: In function '+[Webservices callRestService:]':
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol
+o/Users/ethan/Documents/integratedCSapp/Webservices.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: incomplete implementation of class 'Webservices'
+o/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: method definition for '+callRestService::' not found
+lSLF07#2@60"Compile /Users/ethan/Documents/integratedCSapp/Webservices.m311622577#311622577#0(541"/Users/ethan/Documents/integratedCSapp/Webservices.m: In function '+[Webservices callRestService:]':/Users/ethan/Documents/integratedCSapp/Webservices.m:21: warning: class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol/Users/ethan/Documents/integratedCSapp/Webservices.m: At top level:/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: incomplete implementation of class 'Webservices'/Users/ethan/Documents/integratedCSapp/Webservices.m:30: warning: method definition for '+callRestService::' not found4(22@71"Class 'XmlParser' does not implement the 'NSXMLParserDelegate' protocol311622577#101#138#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#21#0#21#0#45"class '*' does not implement the '*' protocol0(23@13"At top level:311622577#239#68#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#0#0#0#0#0"0(22@48"Incomplete implementation of class 'Webservices'311622577#307#115#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#30#0#30#0#38"incomplete implementation of class '*'0(22@52"Method definition for '+callRestService::' not found311622577#422#119#0(6@52"/Users/ethan/Documents/integratedCSapp/Webservices.m310846898#30#0#30#0#35"method definition for '*' not found0(0#0#52"/Users/ethan/Documents/integratedCSapp/Webservices.m8611936768#1898"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Webservices.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/Webservices.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/XMLParser.o /Users/ethan/Documents/integratedCSapp/XMLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311622577.581507
+e311622577.661344
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/XMLParser.o
+x/Users/ethan/Documents/integratedCSapp/XMLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: '...' as arguments.)
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@58"Compile /Users/ethan/Documents/integratedCSapp/XMLParser.m311622577#311622577#0(991"/Users/ethan/Documents/integratedCSapp/XMLParser.m: In function '-[XmlParser parser:foundCharacters:]':/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: 'NSString' may not respond to '-appendString:'/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: (Messages without a matching method signature/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/integratedCSapp/XMLParser.m:35: warning: '...' as arguments.)/Users/ethan/Documents/integratedCSapp/XMLParser.m: At top level:/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/XMLParser.m:40: warning: property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation5(22@46"'NSString' may not respond to '-appendString:'311622577#104#111#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#35#0#35#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311622577#215#110#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#35#0#35#0#0"0(23@13"At top level:311622577#516#66#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#0#0#0#0#0"0(22@136"Property 'currentElement' requires method '-currentElement' to be defined - use @synthesize, @dynamic or provide a method implementation311622577#582#201#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#40#0#40#0#0"0(22@143"Property 'currentElement' requires the method 'setCurrentElement:' to be defined - use @synthesize, @dynamic or provide a method implementation311622577#783#208#0(6@50"/Users/ethan/Documents/integratedCSapp/XMLParser.m310848279#40#0#40#0#0"0(0#0#50"/Users/ethan/Documents/integratedCSapp/XMLParser.m8612557152#1894"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/XMLParser.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/XMLParser.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSappAppDelegate.o /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311630454.351561
+e311630454.438117
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSappAppDelegate.o
+x/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m311630454#311630454#0(0"0(0#0#75"/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m8612193088#1936"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSappAppDelegate.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/main.o /Users/ethan/Documents/integratedCSapp/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311622577.109553
+e311622577.169319
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/main.o
+x/Users/ethan/Documents/integratedCSapp/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/ethan/Documents/integratedCSapp/main.m311622577#311622577#0(0"0(0#0#45"/Users/ethan/Documents/integratedCSapp/main.m8614820864#1884"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/main.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/sizingViewController.o /Users/ethan/Documents/integratedCSapp/sizingViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311630454.574609
+e311630454.659314
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/sizingViewController.o
+x/Users/ethan/Documents/integratedCSapp/sizingViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m: In function '-[sizingViewController pollServer:]':
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:20: warning: format not a string literal and no format arguments
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: (Messages without a matching method signature
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: will be assumed to return 'id' and accept
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: '...' as arguments.)
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m: At top level:
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@69"Compile /Users/ethan/Documents/integratedCSapp/sizingViewController.m311630454#311630454#0(1193"/Users/ethan/Documents/integratedCSapp/sizingViewController.m: In function '-[sizingViewController pollServer:]':/Users/ethan/Documents/integratedCSapp/sizingViewController.m:20: warning: format not a string literal and no format arguments/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: (Messages without a matching method signature/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: will be assumed to return 'id' and accept/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: '...' as arguments.)/Users/ethan/Documents/integratedCSapp/sizingViewController.m: At top level:/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@51"Format not a string literal and no format arguments311630454#114#127#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#20#0#20#0#51"format not a string literal and no format arguments0(22@52"'Webservices' may not respond to '+callRestService:'311630454#241#128#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#21#0#21#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311630454#369#121#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#21#0#21#0#0"0(23@13"At top level:311630454#703#77#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#0#0#0#0#0"0(22@126"Property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation311630454#780#203#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#111#0#111#0#0"0(22@133"Property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation311630454#983#210#0(6@61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m311630447#111#0#111#0#0"0(0#0#61"/Users/ethan/Documents/integratedCSapp/sizingViewController.m8611197760#1916"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/sizingViewController.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/sizingViewController.o0#
+
+CCompileXIB /Users/ethan/Documents/integratedCSapp/MainWindow.xib
+s311622573.022949
+e311622574.571264
+r1
+xCompileXIB
+x/Users/ethan/Documents/integratedCSapp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib311622573#311622574#0(0"0(0#0#53"/Users/ethan/Documents/integratedCSapp/MainWindow.xib27303562373955684#550"    cd /Users/ethan/Documents/integratedCSapp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/MainWindow.nib /Users/ethan/Documents/integratedCSapp/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/ethan/Documents/integratedCSapp/MapView.xib
+s311624589.619392
+e311624590.024155
+r1
+xCompileXIB
+x/Users/ethan/Documents/integratedCSapp/MapView.xib
+lSLF07#2@22"CompileXIB MapView.xib311624589#311624590#0(0"0(0#0#50"/Users/ethan/Documents/integratedCSapp/MapView.xib8619128832#544"    cd /Users/ethan/Documents/integratedCSapp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/MapView.nib /Users/ethan/Documents/integratedCSapp/MapView.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/ethan/Documents/integratedCSapp/RootViewController.xib
+s311624329.259079
+e311624329.702929
+r1
+xCompileXIB
+x/Users/ethan/Documents/integratedCSapp/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib311624329#311624329#0(0"0(0#0#61"/Users/ethan/Documents/integratedCSapp/RootViewController.xib27303562373955684#566"    cd /Users/ethan/Documents/integratedCSapp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/RootViewController.nib /Users/ethan/Documents/integratedCSapp/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCompileXIB /Users/ethan/Documents/integratedCSapp/sizingViewController.xib
+s311630453.465072
+e311630454.154127
+r1
+xCompileXIB
+x/Users/ethan/Documents/integratedCSapp/sizingViewController.xib
+lSLF07#2@35"CompileXIB sizingViewController.xib311630453#311630454#0(0"0(0#0#63"/Users/ethan/Documents/integratedCSapp/sizingViewController.xib27303562373955684#570"    cd /Users/ethan/Documents/integratedCSapp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/sizingViewController.nib /Users/ethan/Documents/integratedCSapp/sizingViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
+
+CCpResource build/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+s311622572.967059
+e311622573.022851
+r1
+xCpResource
+xbuild/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist311622572#311622573#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8605903200#488"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app0#
+
+CCreateUniversalBinary /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp normal "armv6 armv7"
+s311630454.957496
+e311630454.962976
+r1
+xCreateUniversalBinary
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp
+xnormal
+xarmv6 armv7
+lSLF07#2@99"CreateUniversalBinary build/Debug-iphoneos/integratedCSapp.app/integratedCSapp normal "armv6 armv7"311630454#311630454#0(0"0(0#0#50"/Users/ethan/Documents/integratedCSapp/armv6 armv78612208896#582"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp -output /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp0#
+
+CGenerateDSYMFile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app.dSYM /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp
+s311630454.963087
+e311630455.022233
+r1
+xGenerateDSYMFile
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app.dSYM
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp
+lSLF07#2@119"GenerateDSYMFile build/Debug-iphoneos/integratedCSapp.app.dSYM build/Debug-iphoneos/integratedCSapp.app/integratedCSapp311630454#311630455#0(0"0(0#0#95"/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp8602816224#386"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/integratedCSapp -o /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app.dSYM0#
+
+CLd /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp normal armv6
+s311630454.459496
+e311630454.931419
+r1
+xLd
+x/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp
+xnormal
+xarmv6
+lSLF07#2@145"Link /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp311630454#311630454#0(0"0(0#0#0"8611107744#907"    cd /Users/ethan/Documents/integratedCSapp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -filelist /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv6/integratedCSapp0#
+
+CLd /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp normal armv7
+s311630454.659827
+e311630454.957378
+r1
+xLd
+x/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp
+xnormal
+xarmv7
+lSLF07#2@145"Link /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp311630454#311630454#0(0"0(0#0#0"8612153120#907"    cd /Users/ethan/Documents/integratedCSapp    setenv IPHONEOS_DEPLOYMENT_TARGET 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -filelist /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp.LinkFileList -dead_strip -miphoneos-version-min=4.1 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/Objects-normal/armv7/integratedCSapp0#
+
+CProcessInfoPlistFile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/Info.plist integratedCSapp-Info.plist
+s311622572.968776
+e311622572.993599
+r1
+xProcessInfoPlistFile
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/Info.plist
+xintegratedCSapp-Info.plist
+lSLF07#2@34"Process integratedCSapp-Info.plist311622572#311622572#0(0"0(0#0#65"/Users/ethan/Documents/integratedCSapp/integratedCSapp-Info.plist8603689088#594"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility integratedCSapp-Info.plist -genpkginfo /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/ResourceRules.plist -o /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/Info.plist0#
+
+CProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch.gch integratedCSapp_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311622575.192319
+e311622576.747412
+r1
+xProcessPCH
+x/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch.gch
+xintegratedCSapp_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile integratedCSapp_Prefix.pch311622575#311622576#0(0"0(0#0#65"/Users/ethan/Documents/integratedCSapp/integratedCSapp_Prefix.pch8618244672#1774"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv7 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -c /Users/ethan/Documents/integratedCSapp/integratedCSapp_Prefix.pch -o /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-bxsbfecgoszpmuffffewvxyltroj/integratedCSapp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch.gch integratedCSapp_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311622575.191419
+e311622576.703960
+r1
+xProcessPCH
+x/var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch.gch
+xintegratedCSapp_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile integratedCSapp_Prefix.pch311622575#311622576#0(0"0(0#0#65"/Users/ethan/Documents/integratedCSapp/integratedCSapp_Prefix.pch8601088960#1774"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources/armv6 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/DerivedSources -c /Users/ethan/Documents/integratedCSapp/integratedCSapp_Prefix.pch -o /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-hkprrxaplygvgyezfpjzivsvkfza/integratedCSapp_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision" /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision
+s311622627.240921
+e311622627.242248
+r1
+xProcessProductPackaging
+x/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision" build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision311622627#311622627#0(0"0(0#0#104"/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision8615789408#431"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/ethan/Library/MobileDevice/Provisioning Profiles/464455B9-ECB2-474E-8055-0FAC728C2526.mobileprovision" -o /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent
+s311622578.022267
+e311622578.048682
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
+x/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent
+lSLF07#2@199"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent311622578#311622578#0(0"0(0#0#125"/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent8616018272#456"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphoneos/integratedCSapp.build/integratedCSapp.xcent0#
+
+CTouch /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+s311630455.022462
+e311630455.026183
+r1
+xTouch
+x/Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app
+lSLF07#2@85"Touch /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app311630455#311630455#0(0"0(0#0#0"8611599776#272"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ethan/Documents/integratedCSapp/build/Debug-iphoneos/integratedCSapp.app0#
+
