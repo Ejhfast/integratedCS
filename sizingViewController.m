@@ -13,14 +13,28 @@
 @synthesize sizes;
 @synthesize tosend;
 @synthesize response;
+@synthesize mOrf;
 
-- (void) pollServer: (id) sender {
+- (void) pollServer {
+	NSArray *split = [tosend componentsSeparatedByString:@"."];
 	NSString *myurl = [[NSString alloc] 
-					   initWithFormat:@"http://vibramconverter.heroku.com/vibram/convert/%@.male.xml", tosend];
+					   initWithFormat:@"http://vibramconverter.heroku.com/convert/%@/%@/%@.xml",
+					   [split objectAtIndex:0], [split objectAtIndex:1], mOrf];
 	NSLog(myurl);
 	NSString *reply = [Webservices callRestService:myurl];
 	response.text = reply;
 
+}
+
+- (void) toggleGender {
+	NSLog(@"toggle!");
+	if ([mOrf isEqualToString:@"male"]) {
+		mOrf = @"female";
+	}
+	else {
+		mOrf = @"male";
+	}
+	[self pollServer] ;
 }
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.
@@ -43,17 +57,17 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	float minsize = 10.0;
+	mOrf = @"male"; // misogyny
+	float minsize = 8;
 	sizeArray = [[NSMutableArray alloc] init];
-	for (float i = minsize; i <= 12.5; i = i + 0.5) {
-		if( round(i) > i ){
-			[sizeArray addObject: [NSString stringWithFormat:@"%g", i]];
-		}
-		else {
-			[sizeArray addObject: [NSString stringWithFormat:@"%g.0", i]];
+	for (float i = minsize; i <= 12.5; i = i + 1) {
+		for (float j = 0; j < 1; j = j + .25) {
+			int frac = j * 100;
+				[sizeArray addObject: [NSString stringWithFormat:@"%g.%d", i, frac]];
 		}
 	}
 	tosend = [sizeArray objectAtIndex:0];
+	[self pollServer] ;
 					
 }
 
@@ -95,6 +109,7 @@
 
 - (void) pickerView: (UIPickerView *) pickerView didSelectRow: (NSInteger) row inComponent: (NSInteger) component {
 	tosend = [sizeArray objectAtIndex:row];
+	[self pollServer] ;
 }
 
 - (NSInteger) pickerView: (UIPickerView *) pickerView numberOfRowsInComponent: (NSInteger) component;

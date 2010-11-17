@@ -1,9 +1,0 @@
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m: In function '-[sizingViewController pollServer:]':
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:20: warning: format not a string literal and no format arguments
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: 'Webservices' may not respond to '+callRestService:'
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: (Messages without a matching method signature
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: will be assumed to return 'id' and accept
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:21: warning: '...' as arguments.)
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m: At top level:
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires method '-sizeArray' to be defined - use @synthesize, @dynamic or provide a method implementation
-/Users/ethan/Documents/integratedCSapp/sizingViewController.m:111: warning: property 'sizeArray' requires the method 'setSizeArray:' to be defined - use @synthesize, @dynamic or provide a method implementation
