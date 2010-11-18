@@ -10,9 +10,23 @@
 
 
 @interface MapView : UIViewController {
+	UIImageView *foot1;
+	UIImageView *foot2;
+	UIImageView *glass;
+	//NSTimer *timer;
 
 }
 
 - (IBOutlet) done;
+- (IBAction) shiftUp;
+- (IBAction) shiftDown;
+- (IBAction) glassAppear;
+- (IBAction) glassGone;
+
+@property (nonatomic, retain) UIImageView *foot1;
+@property (nonatomic, retain) UIImageView *foot2;
+@property (nonatomic, retain) UIImageView *glass;
+//@property (nonatomic, retain) NSTimer *timer;
+
 
 @end

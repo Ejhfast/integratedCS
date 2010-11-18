@@ -22,9 +22,11 @@
 	//[parser setShouldProcessNamespaces:NO];
 	//[parser setShouldReportNamespacePrefixes:NO];
 	//[parser setShouldResolveExternalEntities:NO];
+	[xmlParser initialize];
 	[parser parse];
 	[parser release];
-	return xmlParser.currentValue;
+	NSLog(@"%@",[xmlParser.res objectAtIndex:0]);
+	return [xmlParser.res objectAtIndex:0];
 }
 
 @end

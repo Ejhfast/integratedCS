@@ -11,11 +11,15 @@
 @interface XmlParser : NSObject {
 	NSString *currentValue;
 	NSString *currentElement;
-
+	NSMutableArray *res;
 }
+
+- (void) initialize;
 
 @property (nonatomic, retain) NSString *currentValue;
 @property (nonatomic, retain) NSString *currentElement;
+@property (nonatomic, retain) NSMutableArray *res;
+
 
 
 @end

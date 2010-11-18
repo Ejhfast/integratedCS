@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>DistanceCalc.nib</key>
+		<data>
+		bwPJNXQ1NtteTRsX2LXRT2IDCxs=
+		</data>
 		<key>MainWindow.nib</key>
 		<data>
 		+V3pF7YIdCDWeo5KeK5SGbpcMpI=
 		</data>
 		<key>MapView.nib</key>
 		<data>
-		09pnrLIaTgEr1pBcQE9qmDA6JO4=
+		0fZr2/drhaEhSKhmloCOY7V1Jms=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -18,11 +22,23 @@
 		</data>
 		<key>RootViewController.nib</key>
 		<data>
-		e5REgo3KbaMarGL4bbb8f9F/dOM=
+		C94J8hTDf35+Bi5SF+2/JCNsHoY=
+		</data>
+		<key>WhereToRun.nib</key>
+		<data>
+		JCq1kEnvwvuQEdJWo+w7JFi35Lg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		7shYtASoKN/D9XmMc/x105EFKcA=
+		</data>
+		<key>foot.png</key>
+		<data>
+		4MWq2RHt95h5eFLcLwx2qZXmfb0=
+		</data>
+		<key>glass.png</key>
+		<data>
+		YYeWnT0JkTW3oD4CT4+QZRoDf7w=
 		</data>
 		<key>sizingViewController.nib</key>
 		<data>

@@ -9,15 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "sizingViewController.h"
 #import "MapView.h"
+#import "WhereToRun.h"
+#import "DistanceCalc.h"
 
 @interface RootViewController : UITableViewController {
 	sizingViewController *sizeView;
 	MapView *mapView;
+	WhereToRun *runView;
+	DistanceCalc *distCalc;
 	NSMutableArray *navArray;
 }
 
 @property (nonatomic, retain) IBOutlet sizingViewController *sizeView;
 @property (nonatomic, retain) IBOutlet MapView *mapView;
+@property (nonatomic, retain) IBOutlet WhereToRun *runView;
+@property (nonatomic, retain) IBOutlet DistanceCalc *distCalc;
 
 
 @end

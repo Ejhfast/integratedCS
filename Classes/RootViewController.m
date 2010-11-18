@@ -15,13 +15,17 @@
 #pragma mark -
 #pragma mark View lifecycle
 
-@synthesize sizeView, mapView;
+@synthesize sizeView, mapView, runView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	navArray = [[NSMutableArray alloc] init];
 	[navArray addObject:@"Vibram Converter"];
 	[navArray addObject:@"Distance Mapper"];
+	[navArray addObject:@"Where to Run"];
+	[navArray addObject:@"Distance Calculator"];
+
+
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -145,9 +149,16 @@
 	if (indexPath.row == 0) {
 		[self.navigationController pushViewController:sizeView animated:YES];
 	}
-	else{
+	else if(indexPath.row == 1){
 		[self.navigationController pushViewController:mapView animated:YES];
 	}
+	else if(indexPath.row == 2){
+		[self.navigationController pushViewController:runView animated:YES];
+	}
+	else {
+		[self.navigationController pushViewController:distCalc animated:YES];
+	}
+
 }
 
 

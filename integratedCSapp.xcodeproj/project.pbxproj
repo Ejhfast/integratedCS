@@ -15,6 +15,14 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		AA19EE77129490A100510126 /* glass.png in Resources */ = {isa = PBXBuildFile; fileRef = AA19EE76129490A100510126 /* glass.png */; };
+		AA19EE791294910B00510126 /* foot.png in Resources */ = {isa = PBXBuildFile; fileRef = AA19EE781294910B00510126 /* foot.png */; };
+		AA19EF4E1294A4CD00510126 /* WhereToRun.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19EF4C1294A4CD00510126 /* WhereToRun.m */; };
+		AA19EF4F1294A4CD00510126 /* WhereToRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19EF4D1294A4CD00510126 /* WhereToRun.xib */; };
+		AA19F04A1294C22700510126 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA19F0491294C22700510126 /* CoreLocation.framework */; };
+		AA19F05B1294C34D00510126 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19F05A1294C34D00510126 /* MyCLController.m */; };
+		AA19F0C21295666C00510126 /* DistanceCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19F0C01295666C00510126 /* DistanceCalc.m */; };
+		AA19F0C31295666C00510126 /* DistanceCalc.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19F0C11295666C00510126 /* DistanceCalc.xib */; };
 		AA4AD5701292EE8300425100 /* sizingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56B1292EE8300425100 /* sizingViewController.m */; };
 		AA4AD5711292EE8300425100 /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56D1292EE8300425100 /* Webservices.m */; };
 		AA4AD5721292EE8300425100 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56F1292EE8300425100 /* XMLParser.m */; };
@@ -37,6 +45,17 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* integratedCSapp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "integratedCSapp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		AA19EE76129490A100510126 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
+		AA19EE781294910B00510126 /* foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot.png; sourceTree = "<group>"; };
+		AA19EF4B1294A4CD00510126 /* WhereToRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereToRun.h; sourceTree = "<group>"; };
+		AA19EF4C1294A4CD00510126 /* WhereToRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhereToRun.m; sourceTree = "<group>"; };
+		AA19EF4D1294A4CD00510126 /* WhereToRun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhereToRun.xib; sourceTree = "<group>"; };
+		AA19F0491294C22700510126 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AA19F0591294C34D00510126 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
+		AA19F05A1294C34D00510126 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
+		AA19F0BF1295666C00510126 /* DistanceCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceCalc.h; sourceTree = "<group>"; };
+		AA19F0C01295666C00510126 /* DistanceCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceCalc.m; sourceTree = "<group>"; };
+		AA19F0C11295666C00510126 /* DistanceCalc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DistanceCalc.xib; sourceTree = "<group>"; };
 		AA4AD56A1292EE8300425100 /* sizingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sizingViewController.h; sourceTree = "<group>"; };
 		AA4AD56B1292EE8300425100 /* sizingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sizingViewController.m; sourceTree = "<group>"; };
 		AA4AD56C1292EE8300425100 /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservices.h; sourceTree = "<group>"; };
@@ -57,6 +76,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				AA19F04A1294C22700510126 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,9 +126,19 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA19EE781294910B00510126 /* foot.png */,
+				AA19EE76129490A100510126 /* glass.png */,
 				AA75D22C1292FF6B000D20F7 /* MapView.h */,
 				AA75D22D1292FF6B000D20F7 /* MapView.m */,
 				AA75D22E1292FF6B000D20F7 /* MapView.xib */,
+				AA19EF4B1294A4CD00510126 /* WhereToRun.h */,
+				AA19EF4C1294A4CD00510126 /* WhereToRun.m */,
+				AA19F0591294C34D00510126 /* MyCLController.h */,
+				AA19F05A1294C34D00510126 /* MyCLController.m */,
+				AA19F0BF1295666C00510126 /* DistanceCalc.h */,
+				AA19F0C01295666C00510126 /* DistanceCalc.m */,
+				AA19F0C11295666C00510126 /* DistanceCalc.xib */,
+				AA19EF4D1294A4CD00510126 /* WhereToRun.xib */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				AA4AD5731292EE9900425100 /* sizingViewController.xib */,
@@ -129,6 +159,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				AA19F0491294C22700510126 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +218,10 @@
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				AA4AD5741292EE9900425100 /* sizingViewController.xib in Resources */,
 				AA75D2301292FF6B000D20F7 /* MapView.xib in Resources */,
+				AA19EE77129490A100510126 /* glass.png in Resources */,
+				AA19EE791294910B00510126 /* foot.png in Resources */,
+				AA19EF4F1294A4CD00510126 /* WhereToRun.xib in Resources */,
+				AA19F0C31295666C00510126 /* DistanceCalc.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +239,9 @@
 				AA4AD5711292EE8300425100 /* Webservices.m in Sources */,
 				AA4AD5721292EE8300425100 /* XMLParser.m in Sources */,
 				AA75D22F1292FF6B000D20F7 /* MapView.m in Sources */,
+				AA19EF4E1294A4CD00510126 /* WhereToRun.m in Sources */,
+				AA19F05B1294C34D00510126 /* MyCLController.m in Sources */,
+				AA19F0C21295666C00510126 /* DistanceCalc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
