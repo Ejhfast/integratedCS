@@ -20,14 +20,14 @@
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict{                    
 	//NSLog(@"found this element: %@", elementName);
 	currentElement = [elementName copy];
-	if ([elementName isEqualToString:@"inches"] || [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"distance"]) {
+	if ([elementName isEqualToString:@"inches"] || [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"distance"] || [elementName isEqualToString:@"longitude"] || [elementName isEqualToString:@"latitude"]) {
         // clear out our caches...
         currentValue = [ [NSMutableString alloc] init];
 	}
 }
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName{     
 	//NSLog(@"ended element: %@", elementName);
-	if ([elementName isEqualToString:@"inches"] || [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"distance"]) {
+	if ([elementName isEqualToString:@"inches"] || [elementName isEqualToString:@"name"] || [elementName isEqualToString:@"distance"] || [elementName isEqualToString:@"longitude"] || [elementName isEqualToString:@"latitude"]) {
         // save values to an item, then store that item into the array...
         NSLog(@"adding result: %@", currentValue);
 		NSString *news = [[NSString alloc] init];
@@ -38,7 +38,7 @@
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
 	//NSLog(@"found characters: %@", string);
 	// save the characters for the current item...
-	if ([currentElement isEqualToString:@"inches"] || [currentElement isEqualToString:@"name"] || [currentElement isEqualToString:@"distance"]) {
+	if ([currentElement isEqualToString:@"inches"] || [currentElement isEqualToString:@"name"] || [currentElement isEqualToString:@"distance"] || [currentElement isEqualToString:@"longitude"] || [currentElement isEqualToString:@"latitude"]) {
         [currentValue appendString:string];
 	}
 }

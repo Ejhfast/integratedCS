@@ -11,7 +11,7 @@
 #import <MapKit/MapKit.h>
 #import "RouteAnnotation.h"
 #import "MyCLController.h"
-
+#import "Webservices.h"
 
 
 @interface PlotRun : UIViewController <MyCLControllerDelegate> {
@@ -23,6 +23,7 @@
 -(IBAction) showPoint;
 - (void)locationUpdate:(CLLocation *)location;
 - (void)locationError:(NSError *)error;
+- (void) makeAnnotation: (double)lat longitude:(double)lon;
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
 @property (nonatomic, retain) IBOutlet RouteAnnotation *addAnnotation;

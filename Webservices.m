@@ -29,4 +29,20 @@
 	return [xmlParser.res objectAtIndex:0];
 }
 
++(id)getLatitudeList: (NSString *) methodName
+{
+	NSURL *url=[NSURL URLWithString:methodName];
+	XmlParser *xmlParser = [[XmlParser alloc] init];
+	
+	NSXMLParser *parser = [[NSXMLParser alloc] initWithContentsOfURL:url];
+	[parser setDelegate:xmlParser];
+	//[parser setShouldProcessNamespaces:NO];
+	//[parser setShouldReportNamespacePrefixes:NO];
+	//[parser setShouldResolveExternalEntities:NO];
+	[xmlParser initialize];
+	[parser parse];
+	[parser release];
+	return xmlParser.res ;
+}
+
 @end

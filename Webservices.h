@@ -14,6 +14,7 @@
 }
 
 +(id)callRestService: (NSString *) methodName : (NSDictionary *) params;
++(id)getLatitudeList: (NSString *) methodName : (NSDictionary *) params;
 
 
 @end

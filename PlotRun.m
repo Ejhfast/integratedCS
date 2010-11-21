@@ -38,6 +38,44 @@
 }
 */
 
+- (void) makeAnnotation: (double)lat longitude:(double)lon {
+	
+	MKCoordinateRegion region;
+	MKCoordinateSpan span;
+	span.latitudeDelta=0.2;
+	span.longitudeDelta=0.2;
+	NSLog(@"lat:%d, lon:%d",currentLocation.latitude, currentLocation.longitude);
+	
+	region.span=span;
+	CLLocationCoordinate2D newloc;
+	newloc.latitude = lat;
+	newloc.longitude = lon;
+	region.center=newloc;
+
+	RouteAnnotation *newAnnotation;
+	newAnnotation = [[RouteAnnotation alloc] initWithCoordinate:newloc];
+	[mapView addAnnotation:newAnnotation];
+	[mapView setRegion:region animated:TRUE];
+	[mapView regionThatFits:region];
+	
+	NSLog(@"Adding location");
+
+}
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	NSString *myurl = [[NSString alloc] 
+					   initWithFormat:@"http://vibramconverter.heroku.com/obstacles"];
+	NSArray *reply = [Webservices getLatitudeList:myurl];
+	for (int i = 0; i < [reply count] - 1; i=i+2) {
+		double lat = [[reply objectAtIndex:i] doubleValue];
+		double lon = [[reply objectAtIndex:i+1] doubleValue];
+		[self makeAnnotation:lat longitude:lon];
+	}
+	
+}
+
+
 - (void)locationUpdate:(CLLocation *)location {
     currentLocation.latitude = location.coordinate.latitude;
 	currentLocation.longitude = location.coordinate.longitude;
@@ -45,11 +83,17 @@
 }
 
 - (void)locationError:(NSError *)error {
-    NSLog([error description]);
 }
 
 - (IBAction) showPoint {
+	NSMutableURLRequest *request =
+	[NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://vibramconverter.heroku.com/obstacles/create"]];
+	[request setHTTPMethod:@"POST"];
 	
+	NSString *postString = [[NSString alloc] initWithFormat:@"latitude=%.04f&longitude=%.04f",currentLocation.latitude, currentLocation.longitude];
+	[request setHTTPBody:[postString dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];	
 	MKCoordinateRegion region;
 	MKCoordinateSpan span;
 	span.latitudeDelta=0.2;
@@ -113,6 +157,7 @@
 	locationController = [[MyCLController alloc] init];
 	locationController.delegate = self;
 	[locationController.locationManager startUpdatingLocation];
+	
 }
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
