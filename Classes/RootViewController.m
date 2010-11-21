@@ -23,6 +23,7 @@
 	[navArray addObject:@"Vibram Converter"];
 	[navArray addObject:@"Distance Mapper"];
 	[navArray addObject:@"Where to Run"];
+	[navArray addObject:@"Plot Run"];
 	[navArray addObject:@"Distance Calculator"];
 
 
@@ -154,6 +155,9 @@
 	}
 	else if(indexPath.row == 2){
 		[self.navigationController pushViewController:runView animated:YES];
+	}
+	else if(indexPath.row == 3){
+		[self.navigationController pushViewController:plotView animated:YES];
 	}
 	else {
 		[self.navigationController pushViewController:distCalc animated:YES];

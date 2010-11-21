@@ -1,0 +1,2 @@
+/Users/ethan/Documents/integratedCSapp/RouteAnnotation.m: In function '-[RouteAnnotation initWithCoordinate:]':
+/Users/ethan/Documents/integratedCSapp/RouteAnnotation.m:22: warning: local declaration of 'coordinate' hides instance variable

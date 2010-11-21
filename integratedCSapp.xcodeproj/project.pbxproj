@@ -27,6 +27,10 @@
 		AA4AD5711292EE8300425100 /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56D1292EE8300425100 /* Webservices.m */; };
 		AA4AD5721292EE8300425100 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56F1292EE8300425100 /* XMLParser.m */; };
 		AA4AD5741292EE9900425100 /* sizingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4AD5731292EE9900425100 /* sizingViewController.xib */; };
+		AA4AE389129932670098D843 /* PlotRun.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE387129932670098D843 /* PlotRun.m */; };
+		AA4AE38A129932670098D843 /* PlotRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4AE388129932670098D843 /* PlotRun.xib */; };
+		AA4AE39F129932BD0098D843 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4AE39E129932BD0098D843 /* MapKit.framework */; };
+		AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE3AE129934B20098D843 /* RouteAnnotation.m */; };
 		AA75D22F1292FF6B000D20F7 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75D22D1292FF6B000D20F7 /* MapView.m */; };
 		AA75D2301292FF6B000D20F7 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA75D22E1292FF6B000D20F7 /* MapView.xib */; };
 /* End PBXBuildFile section */
@@ -63,6 +67,12 @@
 		AA4AD56E1292EE8300425100 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		AA4AD56F1292EE8300425100 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
 		AA4AD5731292EE9900425100 /* sizingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sizingViewController.xib; sourceTree = "<group>"; };
+		AA4AE386129932670098D843 /* PlotRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotRun.h; sourceTree = "<group>"; };
+		AA4AE387129932670098D843 /* PlotRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotRun.m; sourceTree = "<group>"; };
+		AA4AE388129932670098D843 /* PlotRun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlotRun.xib; sourceTree = "<group>"; };
+		AA4AE39E129932BD0098D843 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AA4AE3AD129934B20098D843 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
+		AA4AE3AE129934B20098D843 /* RouteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteAnnotation.m; sourceTree = "<group>"; };
 		AA75D22C1292FF6B000D20F7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		AA75D22D1292FF6B000D20F7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		AA75D22E1292FF6B000D20F7 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -77,6 +87,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				AA19F04A1294C22700510126 /* CoreLocation.framework in Frameworks */,
+				AA4AE39F129932BD0098D843 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +137,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA4AE3AD129934B20098D843 /* RouteAnnotation.h */,
+				AA4AE3AE129934B20098D843 /* RouteAnnotation.m */,
+				AA4AE386129932670098D843 /* PlotRun.h */,
+				AA4AE387129932670098D843 /* PlotRun.m */,
+				AA4AE388129932670098D843 /* PlotRun.xib */,
 				AA19EE781294910B00510126 /* foot.png */,
 				AA19EE76129490A100510126 /* glass.png */,
 				AA75D22C1292FF6B000D20F7 /* MapView.h */,
@@ -160,6 +176,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 				AA19F0491294C22700510126 /* CoreLocation.framework */,
+				AA4AE39E129932BD0098D843 /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,6 +239,7 @@
 				AA19EE791294910B00510126 /* foot.png in Resources */,
 				AA19EF4F1294A4CD00510126 /* WhereToRun.xib in Resources */,
 				AA19F0C31295666C00510126 /* DistanceCalc.xib in Resources */,
+				AA4AE38A129932670098D843 /* PlotRun.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +260,8 @@
 				AA19EF4E1294A4CD00510126 /* WhereToRun.m in Sources */,
 				AA19F05B1294C34D00510126 /* MyCLController.m in Sources */,
 				AA19F0C21295666C00510126 /* DistanceCalc.m in Sources */,
+				AA4AE389129932670098D843 /* PlotRun.m in Sources */,
+				AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
