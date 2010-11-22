@@ -1,0 +1,106 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* integratedCSapp */ = {
+		activeExec = 0;
+		executables = (
+			BEA7A638129A04A300E37E3E /* integratedCSapp */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BEA7A638129A04A300E37E3E /* integratedCSapp */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* integratedCSapp */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* integratedCSapp */,
+		);
+		codeSenseManager = BEA7A656129A04A800E37E3E /* Code sense */;
+		executables = (
+			BEA7A638129A04A300E37E3E /* integratedCSapp */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 312083619;
+			PBXWorkspaceStateSaveDate = 312083619;
+		};
+		sourceControlManager = BEA7A655129A04A800E37E3E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AA4AE386129932670098D843 /* PlotRun.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 501}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 819}";
+		};
+	};
+	AA4AE387129932670098D843 /* PlotRun.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2392}}";
+			sepNavSelRange = "{2521, 43}";
+			sepNavVisRange = "{735, 1106}";
+		};
+	};
+	BEA7A638129A04A300E37E3E /* integratedCSapp */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = integratedCSapp;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BEA7A655129A04A800E37E3E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BEA7A656129A04A800E37E3E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
