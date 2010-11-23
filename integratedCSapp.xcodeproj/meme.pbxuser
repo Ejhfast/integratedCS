@@ -6,6 +6,13 @@
 			BEA7A638129A04A300E37E3E /* integratedCSapp */,
 		);
 	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 546}}";
+			sepNavSelRange = "{319, 0}";
+			sepNavVisRange = "{90, 361}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = BEA7A638129A04A300E37E3E /* integratedCSapp */;
@@ -23,9 +30,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					993,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -40,8 +47,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312083619;
-			PBXWorkspaceStateSaveDate = 312083619;
+			PBXPerProjectTemplateStateSaveDate = 312224440;
+			PBXWorkspaceStateSaveDate = 312224440;
+		};
+		perUserProjectItems = {
+			BE3DED94129C2E0300F62BE1 /* PBXTextBookmark */ = BE3DED94129C2E0300F62BE1 /* PBXTextBookmark */;
+			BE3DED95129C2E0300F62BE1 /* PBXTextBookmark */ = BE3DED95129C2E0300F62BE1 /* PBXTextBookmark */;
+			BE3DED96129C2E0300F62BE1 /* PBXTextBookmark */ = BE3DED96129C2E0300F62BE1 /* PBXTextBookmark */;
+			BE3DED97129C2E0300F62BE1 /* PBXBookmark */ = BE3DED97129C2E0300F62BE1 /* PBXBookmark */;
+			BE3DED98129C2E0300F62BE1 /* PBXTextBookmark */ = BE3DED98129C2E0300F62BE1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BEA7A655129A04A800E37E3E /* Source Control */;
 		userBuildSettings = {
@@ -49,17 +63,61 @@
 	};
 	AA4AE386129932670098D843 /* PlotRun.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 501}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 516}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 819}";
 		};
 	};
 	AA4AE387129932670098D843 /* PlotRun.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 2392}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 2431}}";
 			sepNavSelRange = "{2521, 43}";
-			sepNavVisRange = "{735, 1106}";
+			sepNavVisRange = "{1058, 1048}";
 		};
+	};
+	BE3DED94129C2E0300F62BE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 23";
+		rLen = 0;
+		rLoc = 496;
+		rType = 0;
+		vrLen = 929;
+		vrLoc = 0;
+	};
+	BE3DED95129C2E0300F62BE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA4AE386129932670098D843 /* PlotRun.h */;
+		name = "PlotRun.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 819;
+		vrLoc = 0;
+	};
+	BE3DED96129C2E0300F62BE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA4AE387129932670098D843 /* PlotRun.m */;
+		name = "PlotRun.m: 90";
+		rLen = 43;
+		rLoc = 2521;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 1058;
+	};
+	BE3DED97129C2E0300F62BE1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BEA7A665129A057600E37E3E /* CalcMiles.m */;
+	};
+	BE3DED98129C2E0300F62BE1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = BEA7A665129A057600E37E3E /* CalcMiles.m */;
+		name = "CalcMiles.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 657;
+		vrLoc = 0;
 	};
 	BEA7A638129A04A300E37E3E /* integratedCSapp */ = {
 		isa = PBXExecutable;
@@ -68,7 +126,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -85,6 +143,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = integratedCSapp;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -102,5 +162,12 @@
 	BEA7A656129A04A800E37E3E /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	BEA7A665129A057600E37E3E /* CalcMiles.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 657}";
+		};
 	};
 }

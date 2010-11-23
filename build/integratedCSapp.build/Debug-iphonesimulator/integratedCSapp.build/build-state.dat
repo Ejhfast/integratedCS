@@ -1,7 +1,7 @@
 TintegratedCSapp
 v7
 r0
-t312083771.062961
+t312225148.950054
 cCheck dependencies
 cProcessInfoPlistFile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/Info.plist integratedCSapp-Info.plist
 cCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/MainWindow.xib
@@ -13,6 +13,7 @@ cCpResource build/Debug-iphonesimulator/integratedCSapp.app/foot.png foot.png
 cCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/WhereToRun.xib
 cCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/DistanceCalc.xib
 cCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/PlotRun.xib
+cCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib
 cProcessPCH /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch.gch integratedCSapp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/main.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -26,6 +27,7 @@ cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.buil
 cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/DistanceCalc.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/DistanceCalc.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/PlotRun.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/PlotRun.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RouteAnnotation.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/RouteAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/CalcMiles.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp normal i386
 cGenerateDSYMFile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp
 cTouch /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app
@@ -530,21 +532,41 @@ c000000004CE3D0400000000000006A43
 t1289998400
 s27203
 
+N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.h
+c000000004CE9CE2B00000000000002A7
+t1290391083
+s679
+i<UIKit/UIKit.h>
+i"MyCLController.h"
+i"Webservices.h"
+
+N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m
+c000000004CE9CE850000000000000B74
+t1290391173
+s2932
+i"CalcMiles.h"
+
+N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib
+c000000004CE9D17E00000000000068F0
+t1290391934
+s26864
+
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.h
-c000000004CE9CD120000000000000335
-t1290390802
-s821
+c000000004CEBF4E700000000000003A1
+t1290532071
+s929
 i<UIKit/UIKit.h>
 i"sizingViewController.h"
 i"MapView.h"
 i"WhereToRun.h"
 i"DistanceCalc.h"
 i"PlotRun.h"
+i"CalcMiles.h"
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m
-c000000004CE9CD120000000000001429
-t1290390802
-s5161
+c000000004CE9D20700000000000014BB
+t1290392071
+s5307
 i"RootViewController.h"
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.h
@@ -637,9 +659,9 @@ t1290390802
 s21646
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/RootViewController.xib
-c000000004CE9CD120000000000009C25
-t1290390802
-s39973
+c000000004CEBF4AB000000000000B6BC
+t1290532011
+s46780
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/RouteAnnotation.h
 c000000004CE9CD1200000000000002A3
@@ -701,12 +723,16 @@ s2042
 i"XmlParser.h"
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app
-t1290390845
-s476
+t1290532075
+s510
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM
-t1290390845
+t1290532075
 s102
+
+N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/CalcMiles.nib
+t1290532046
+s3689
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/DistanceCalc.nib
 t1290390802
@@ -733,8 +759,8 @@ t1290390802
 s3246
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/RootViewController.nib
-t1290390802
-s2185
+t1290532046
+s2299
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/WhereToRun.nib
 t1290390802
@@ -749,12 +775,16 @@ t1290390802
 s2083
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp
-t1290390845
-s69008
+t1290532075
+s75420
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/sizingViewController.nib
 t1290390802
 s4127
+
+N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/CalcMiles.o
+t1290532047
+s45288
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/DistanceCalc.o
 t1290390844
@@ -773,8 +803,8 @@ t1290390844
 s53532
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o
-t1290390844
-s48120
+t1290532074
+s48828
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RouteAnnotation.o
 t1290390844
@@ -793,12 +823,12 @@ t1290390844
 s14760
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSapp.LinkFileList
-c000000004CE9CD3A0000000000000789
-t1290390842
-s1929
+c000000004CEBF4CD0000000000000826
+t1290532045
+s2086
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o
-t1290390844
+t1290532074
 s50476
 
 N/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/main.o
@@ -866,7 +896,28 @@ s888
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312083771#312083771#0(0"0(0#1#0"8606194752#0"0#
+lSLF07#2@18"Check dependencies312225148#312225148#0(0"0(0#1#0"8616705536#0"0#
+
+CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/CalcMiles.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312224847.429846
+e312224847.818842
+r1
+xCompileC
+xbuild/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/CalcMiles.o
+x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m: In function '-[CalcMiles locationError:]':
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:27: warning: format not a string literal and no format arguments
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m: In function '-[CalcMiles serverPing]':
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:50: warning: format not a string literal and no format arguments
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: 'Webservices' may not respond to '+callRestService:'
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: (Messages without a matching method signature
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: will be assumed to return 'id' and accept
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: '...' as arguments.)
+lSLF07#2@72"Compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m312224847#312224847#0(948"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m: In function '-[CalcMiles locationError:]':/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:27: warning: format not a string literal and no format arguments/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m: In function '-[CalcMiles serverPing]':/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:50: warning: format not a string literal and no format arguments/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: 'Webservices' may not respond to '+callRestService:'/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: (Messages without a matching method signature/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: will be assumed to return 'id' and accept/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m:55: warning: '...' as arguments.)4(22@51"Format not a string literal and no format arguments312224847#109#130#0(6@64"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m312083973#27#0#27#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments312224847#344#130#0(6@64"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m312083973#50#0#50#0#51"format not a string literal and no format arguments0(22@52"'Webservices' may not respond to '+callRestService:'312224847#474#131#0(6@64"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m312083973#55#0#55#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)312224847#605#124#0(6@64"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m312083973#55#0#55#0#0"0(0#0#64"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m5999749515494650880#2238"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/include -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.m -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/CalcMiles.o0#
 
 CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/DistanceCalc.o /Users/ethan/Documents/integratedCSapp/DistanceCalc.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s312074087.684113
@@ -1068,8 +1119,8 @@ o/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m:190: warnin
 lSLF07#2@75"Compile /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m312074501#312074502#0(842"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m:190: warning: property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m:190: warning: property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m:190: warning: property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m:190: warning: property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@124"Property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation312074502#0#207#0(6@67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m312029981#190#0#190#0#0"0(22@131"Property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation312074502#207#214#0(6@67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m312029981#190#0#190#0#0"0(22@124"Property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation312074502#421#207#0(6@67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m312029981#190#0#190#0#0"0(22@131"Property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation312074502#628#214#0(6@67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m312029981#190#0#190#0#0"0(0#0#67"/Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m8616227232#2110"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-dvylqckqlcotfhbbrlsprumwmcvq/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/RootViewController.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s312083644.259882
-e312083644.403863
+s312224874.444515
+e312224874.566910
 r1
 xCompileC
 xbuild/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o
@@ -1078,11 +1129,13 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation
-lSLF07#2@89"Compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312083644#312083644#0(898"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:190: warning: property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation4(22@124"Property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation312083644#0#221#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312083602#190#0#190#0#0"0(22@131"Property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation312083644#221#228#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312083602#190#0#190#0#0"0(22@124"Property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation312083644#449#221#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312083602#190#0#190#0#0"0(22@131"Property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation312083644#670#228#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312083602#190#0#190#0#0"0(0#0#81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m8606002720#2264"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/include -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o0#
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'totalMiles' requires method '-totalMiles' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'totalMiles' requires the method 'setTotalMiles:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@89"Compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312224874#312224874#0(1355"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'totalMiles' requires method '-totalMiles' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m:194: warning: property 'totalMiles' requires the method 'setTotalMiles:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@124"Property 'distCalc' requires method '-distCalc' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#0#221#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(22@131"Property 'distCalc' requires the method 'setDistCalc:' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#221#228#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(22@124"Property 'plotView' requires method '-plotView' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#449#221#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(22@131"Property 'plotView' requires the method 'setPlotView:' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#670#228#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(22@128"Property 'totalMiles' requires method '-totalMiles' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#898#225#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(22@135"Property 'totalMiles' requires the method 'setTotalMiles:' to be defined - use @synthesize, @dynamic or provide a method implementation312224874#1123#232#0(6@81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m312084871#194#0#194#0#0"0(0#0#81"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m8614896064#2264"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/include -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/RootViewController.m -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/RouteAnnotation.o /Users/ethan/Documents/integratedCSapp/RouteAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s312032213.330496
@@ -1314,8 +1367,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@83"Compile /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m312074501#312074502#0(0"0(0#0#75"/Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m8616137504#2126"    cd /Users/ethan/Documents/integratedCSapp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator -I/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/include -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/K-/K-9z7ddkGq4qLCpx1qkRAE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-dvylqckqlcotfhbbrlsprumwmcvq/integratedCSapp_Prefix.pch -c /Users/ethan/Documents/integratedCSapp/Classes/integratedCSappAppDelegate.m -o /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o0#
 
 CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s312083644.166417
-e312083644.284242
+s312224874.443477
+e312224874.553169
 r1
 xCompileC
 xbuild/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o
@@ -1324,7 +1377,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m312083644#312083644#0(0"0(0#0#89"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m8607024448#2280"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/include -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o0#
+lSLF07#2@97"Compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m312224874#312224874#0(0"0(0#0#89"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m8615166816#2280"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-generated-files.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-own-target-headers.hmap -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-all-target-headers.hmap -iquote /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/integratedCSapp-project-headers.hmap -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/include -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources/i386 -I/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/DerivedSources -include /var/folders/L1/L159ezv5EQyP00d66YDFN++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/integratedCSapp_Prefix-gvifrgwuwminvuehwlzkkfggvkoh/integratedCSapp_Prefix.pch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/Classes/integratedCSappAppDelegate.m -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSappAppDelegate.o0#
 
 CCompileC build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/main.o /Users/ethan/Documents/integratedCSapp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s311618903.897093
@@ -1452,6 +1505,14 @@ xCompileXIB
 x/Users/ethan/Documents/integratedCSapp/sizingViewController.xib
 lSLF07#2@35"CompileXIB sizingViewController.xib311691204#311691205#0(0"0(0#0#63"/Users/ethan/Documents/integratedCSapp/sizingViewController.xib8602904480#598"    cd /Users/ethan/Documents/integratedCSapp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/sizingViewController.nib /Users/ethan/Documents/integratedCSapp/sizingViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
+CCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib
+s312224845.811095
+e312224846.543612
+r1
+xCompileXIB
+x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib
+lSLF07#2@24"CompileXIB CalcMiles.xib312224845#312224846#0(0"0(0#0#66"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib8609947872#618"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/CalcMiles.nib /Users/meme/Documents/uva/fall10/cs4501/integratedCS/CalcMiles.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
 CCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/DistanceCalc.xib
 r0
 
@@ -1465,7 +1526,12 @@ CCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/PlotRun.xib
 r0
 
 CCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/RootViewController.xib
-r0
+s312224845.732791
+e312224846.508228
+r1
+xCompileXIB
+x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib312224845#312224846#0(0"0(0#0#75"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/RootViewController.xib32651569751457900#636"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/RootViewController.nib /Users/meme/Documents/uva/fall10/cs4501/integratedCS/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
 
 CCompileXIB /Users/meme/Documents/uva/fall10/cs4501/integratedCS/WhereToRun.xib
 r0
@@ -1501,13 +1567,13 @@ x/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCS
 lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/integratedCSapp.app.dSYM build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312074604#312074604#0(0"0(0#0#102"/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp8615727392#407"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp -o /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app.dSYM0#
 
 CGenerateDSYMFile /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp
-s312083645.175094
-e312083645.235662
+s312224875.024575
+e312224875.144151
 r1
 xGenerateDSYMFile
 x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM
 x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp
-lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/integratedCSapp.app.dSYM build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312083645#312083645#0(0"0(0#0#116"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp8604206496#449"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM0#
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/integratedCSapp.app.dSYM build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312224875#312224875#0(0"0(0#0#116"/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp8614953984#449"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app.dSYM0#
 
 CLd /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp normal i386
 s312074604.659157
@@ -1520,14 +1586,14 @@ xi386
 lSLF07#2@107"Link /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312074604#312074604#0(0"0(0#0#0"8613632992#982"    cd /Users/ethan/Documents/integratedCSapp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator -F/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator -filelist /Users/ethan/Documents/integratedCSapp/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSapp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp0#
 
 CLd /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp normal i386
-s312083644.866254
-e312083645.174983
+s312224874.567009
+e312224875.024473
 r1
 xLd
 x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp
 xnormal
 xi386
-lSLF07#2@121"Link /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312083644#312083645#0(0"0(0#0#0"8605831232#1052"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -filelist /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSapp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp0#
+lSLF07#2@121"Link /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp312224874#312224875#0(0"0(0#0#0"8594720352#1052"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -F/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator -filelist /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/integratedCSapp.build/Debug-iphonesimulator/integratedCSapp.build/Objects-normal/i386/integratedCSapp.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -o /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app/integratedCSapp0#
 
 CProcessInfoPlistFile /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app/Info.plist integratedCSapp-Info.plist
 s311623723.298232
@@ -1576,10 +1642,10 @@ x/Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCS
 lSLF07#2@92"Touch /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app312074604#312074604#0(0"0(0#0#0"8615459488#286"    cd /Users/ethan/Documents/integratedCSapp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ethan/Documents/integratedCSapp/build/Debug-iphonesimulator/integratedCSapp.app0#
 
 CTouch /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app
-s312083645.235752
-e312083645.253644
+s312224875.144253
+e312224875.200691
 r1
 xTouch
 x/Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app
-lSLF07#2@106"Touch /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app312083645#312083645#0(0"0(0#0#0"8603996640#314"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app0#
+lSLF07#2@106"Touch /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app312224875#312224875#0(0"0(0#0#0"8614926464#314"    cd /Users/meme/Documents/uva/fall10/cs4501/integratedCS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/meme/Documents/uva/fall10/cs4501/integratedCS/build/Debug-iphonesimulator/integratedCSapp.app0#
 
