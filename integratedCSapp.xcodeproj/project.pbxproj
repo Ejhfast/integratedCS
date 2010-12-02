@@ -33,6 +33,8 @@
 		AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE3AE129934B20098D843 /* RouteAnnotation.m */; };
 		AA75D22F1292FF6B000D20F7 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75D22D1292FF6B000D20F7 /* MapView.m */; };
 		AA75D2301292FF6B000D20F7 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA75D22E1292FF6B000D20F7 /* MapView.xib */; };
+		BE10562312A829BA00571DCB /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10562112A829BA00571DCB /* AboutUs.m */; };
+		BE10562412A829BA00571DCB /* AboutUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE10562212A829BA00571DCB /* AboutUs.xib */; };
 		BEA7A667129A057600E37E3E /* CalcMiles.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA7A665129A057600E37E3E /* CalcMiles.m */; };
 		BEA7A668129A057600E37E3E /* CalcMiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA7A666129A057600E37E3E /* CalcMiles.xib */; };
 /* End PBXBuildFile section */
@@ -78,6 +80,9 @@
 		AA75D22C1292FF6B000D20F7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		AA75D22D1292FF6B000D20F7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		AA75D22E1292FF6B000D20F7 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		BE10562012A829BA00571DCB /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUs.h; sourceTree = "<group>"; };
+		BE10562112A829BA00571DCB /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
+		BE10562212A829BA00571DCB /* AboutUs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUs.xib; sourceTree = "<group>"; };
 		BEA7A664129A057600E37E3E /* CalcMiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcMiles.h; sourceTree = "<group>"; };
 		BEA7A665129A057600E37E3E /* CalcMiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcMiles.m; sourceTree = "<group>"; };
 		BEA7A666129A057600E37E3E /* CalcMiles.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalcMiles.xib; sourceTree = "<group>"; };
@@ -173,6 +178,9 @@
 				BEA7A664129A057600E37E3E /* CalcMiles.h */,
 				BEA7A665129A057600E37E3E /* CalcMiles.m */,
 				BEA7A666129A057600E37E3E /* CalcMiles.xib */,
+				BE10562012A829BA00571DCB /* AboutUs.h */,
+				BE10562112A829BA00571DCB /* AboutUs.m */,
+				BE10562212A829BA00571DCB /* AboutUs.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -249,6 +257,7 @@
 				AA19F0C31295666C00510126 /* DistanceCalc.xib in Resources */,
 				AA4AE38A129932670098D843 /* PlotRun.xib in Resources */,
 				BEA7A668129A057600E37E3E /* CalcMiles.xib in Resources */,
+				BE10562412A829BA00571DCB /* AboutUs.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 				AA4AE389129932670098D843 /* PlotRun.m in Sources */,
 				AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */,
 				BEA7A667129A057600E37E3E /* CalcMiles.m in Sources */,
+				BE10562312A829BA00571DCB /* AboutUs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

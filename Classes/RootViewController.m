@@ -26,6 +26,7 @@
 	[navArray addObject:@"Plot Run"];
 	[navArray addObject:@"Distance Calculator"];
 	[navArray addObject:@"Calc Miles"];
+	[navArray addObject:@"About this App"];
 
 
 
@@ -163,10 +164,12 @@
 	else if (indexPath.row == 4) {
 		[self.navigationController pushViewController:distCalc animated:YES];
 	}
-	else {
+	else if (indexPath.row == 5) {
 		[self.navigationController pushViewController:totalMiles animated:YES];
 	}
-
+	else {
+		[self.navigationController pushViewController:aboutApp animated:YES];
+	}
 }
 
 
