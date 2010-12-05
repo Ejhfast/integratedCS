@@ -23,6 +23,10 @@
 		AA19F05B1294C34D00510126 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19F05A1294C34D00510126 /* MyCLController.m */; };
 		AA19F0C21295666C00510126 /* DistanceCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = AA19F0C01295666C00510126 /* DistanceCalc.m */; };
 		AA19F0C31295666C00510126 /* DistanceCalc.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA19F0C11295666C00510126 /* DistanceCalc.xib */; };
+		AA49A47F12A83075000A13F5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA49A47E12A83075000A13F5 /* Default.png */; };
+		AA49A50412A9B86B000A13F5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA49A50312A9B86B000A13F5 /* CoreData.framework */; };
+		AA49A70C12ABF99D000A13F5 /* Speed.m in Sources */ = {isa = PBXBuildFile; fileRef = AA49A70A12ABF99D000A13F5 /* Speed.m */; };
+		AA49A70D12ABF99D000A13F5 /* Speed.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA49A70B12ABF99D000A13F5 /* Speed.xib */; };
 		AA4AD5701292EE8300425100 /* sizingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56B1292EE8300425100 /* sizingViewController.m */; };
 		AA4AD5711292EE8300425100 /* Webservices.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56D1292EE8300425100 /* Webservices.m */; };
 		AA4AD5721292EE8300425100 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AD56F1292EE8300425100 /* XMLParser.m */; };
@@ -55,36 +59,41 @@
 		8D1107310486CEB800E47090 /* integratedCSapp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "integratedCSapp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		AA19EE76129490A100510126 /* glass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glass.png; sourceTree = "<group>"; };
 		AA19EE781294910B00510126 /* foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foot.png; sourceTree = "<group>"; };
-		AA19EF4B1294A4CD00510126 /* WhereToRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereToRun.h; sourceTree = "<group>"; };
-		AA19EF4C1294A4CD00510126 /* WhereToRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhereToRun.m; sourceTree = "<group>"; };
+		AA19EF4B1294A4CD00510126 /* WhereToRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhereToRun.h; path = ../WhereToRun.h; sourceTree = "<group>"; };
+		AA19EF4C1294A4CD00510126 /* WhereToRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhereToRun.m; path = ../WhereToRun.m; sourceTree = "<group>"; };
 		AA19EF4D1294A4CD00510126 /* WhereToRun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhereToRun.xib; sourceTree = "<group>"; };
 		AA19F0491294C22700510126 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		AA19F0591294C34D00510126 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCLController.h; sourceTree = "<group>"; };
-		AA19F05A1294C34D00510126 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCLController.m; sourceTree = "<group>"; };
-		AA19F0BF1295666C00510126 /* DistanceCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DistanceCalc.h; sourceTree = "<group>"; };
-		AA19F0C01295666C00510126 /* DistanceCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DistanceCalc.m; sourceTree = "<group>"; };
+		AA19F0591294C34D00510126 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCLController.h; path = ../MyCLController.h; sourceTree = "<group>"; };
+		AA19F05A1294C34D00510126 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCLController.m; path = ../MyCLController.m; sourceTree = "<group>"; };
+		AA19F0BF1295666C00510126 /* DistanceCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DistanceCalc.h; path = ../DistanceCalc.h; sourceTree = "<group>"; };
+		AA19F0C01295666C00510126 /* DistanceCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DistanceCalc.m; path = ../DistanceCalc.m; sourceTree = "<group>"; };
 		AA19F0C11295666C00510126 /* DistanceCalc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DistanceCalc.xib; sourceTree = "<group>"; };
-		AA4AD56A1292EE8300425100 /* sizingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sizingViewController.h; sourceTree = "<group>"; };
-		AA4AD56B1292EE8300425100 /* sizingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sizingViewController.m; sourceTree = "<group>"; };
-		AA4AD56C1292EE8300425100 /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservices.h; sourceTree = "<group>"; };
-		AA4AD56D1292EE8300425100 /* Webservices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservices.m; sourceTree = "<group>"; };
-		AA4AD56E1292EE8300425100 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
-		AA4AD56F1292EE8300425100 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		AA49A47E12A83075000A13F5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA49A50312A9B86B000A13F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA49A70912ABF99D000A13F5 /* Speed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speed.h; sourceTree = "<group>"; };
+		AA49A70A12ABF99D000A13F5 /* Speed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speed.m; sourceTree = "<group>"; };
+		AA49A70B12ABF99D000A13F5 /* Speed.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Speed.xib; sourceTree = "<group>"; };
+		AA4AD56A1292EE8300425100 /* sizingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sizingViewController.h; path = ../sizingViewController.h; sourceTree = "<group>"; };
+		AA4AD56B1292EE8300425100 /* sizingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sizingViewController.m; path = ../sizingViewController.m; sourceTree = "<group>"; };
+		AA4AD56C1292EE8300425100 /* Webservices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Webservices.h; path = ../Webservices.h; sourceTree = "<group>"; };
+		AA4AD56D1292EE8300425100 /* Webservices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Webservices.m; path = ../Webservices.m; sourceTree = "<group>"; };
+		AA4AD56E1292EE8300425100 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = ../XMLParser.h; sourceTree = "<group>"; };
+		AA4AD56F1292EE8300425100 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLParser.m; path = ../XMLParser.m; sourceTree = "<group>"; };
 		AA4AD5731292EE9900425100 /* sizingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sizingViewController.xib; sourceTree = "<group>"; };
-		AA4AE386129932670098D843 /* PlotRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlotRun.h; sourceTree = "<group>"; };
-		AA4AE387129932670098D843 /* PlotRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlotRun.m; sourceTree = "<group>"; };
+		AA4AE386129932670098D843 /* PlotRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlotRun.h; path = ../PlotRun.h; sourceTree = "<group>"; };
+		AA4AE387129932670098D843 /* PlotRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlotRun.m; path = ../PlotRun.m; sourceTree = "<group>"; };
 		AA4AE388129932670098D843 /* PlotRun.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlotRun.xib; sourceTree = "<group>"; };
 		AA4AE39E129932BD0098D843 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		AA4AE3AD129934B20098D843 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
-		AA4AE3AE129934B20098D843 /* RouteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteAnnotation.m; sourceTree = "<group>"; };
-		AA75D22C1292FF6B000D20F7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
-		AA75D22D1292FF6B000D20F7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		AA4AE3AD129934B20098D843 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteAnnotation.h; path = ../RouteAnnotation.h; sourceTree = "<group>"; };
+		AA4AE3AE129934B20098D843 /* RouteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteAnnotation.m; path = ../RouteAnnotation.m; sourceTree = "<group>"; };
+		AA75D22C1292FF6B000D20F7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapView.h; path = ../MapView.h; sourceTree = "<group>"; };
+		AA75D22D1292FF6B000D20F7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapView.m; path = ../MapView.m; sourceTree = "<group>"; };
 		AA75D22E1292FF6B000D20F7 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
-		BE10562012A829BA00571DCB /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUs.h; sourceTree = "<group>"; };
-		BE10562112A829BA00571DCB /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
+		BE10562012A829BA00571DCB /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutUs.h; path = ../AboutUs.h; sourceTree = "<group>"; };
+		BE10562112A829BA00571DCB /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUs.m; path = ../AboutUs.m; sourceTree = "<group>"; };
 		BE10562212A829BA00571DCB /* AboutUs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUs.xib; sourceTree = "<group>"; };
-		BEA7A664129A057600E37E3E /* CalcMiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcMiles.h; sourceTree = "<group>"; };
-		BEA7A665129A057600E37E3E /* CalcMiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcMiles.m; sourceTree = "<group>"; };
+		BEA7A664129A057600E37E3E /* CalcMiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcMiles.h; path = ../CalcMiles.h; sourceTree = "<group>"; };
+		BEA7A665129A057600E37E3E /* CalcMiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcMiles.m; path = ../CalcMiles.m; sourceTree = "<group>"; };
 		BEA7A666129A057600E37E3E /* CalcMiles.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalcMiles.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +107,7 @@
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				AA19F04A1294C22700510126 /* CoreLocation.framework in Frameworks */,
 				AA4AE39F129932BD0098D843 /* MapKit.framework in Frameworks */,
+				AA49A50412A9B86B000A13F5 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +121,31 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* integratedCSappAppDelegate.h */,
 				1D3623250D0F684500981E51 /* integratedCSappAppDelegate.m */,
+				AA4AE3AD129934B20098D843 /* RouteAnnotation.h */,
+				AA75D22C1292FF6B000D20F7 /* MapView.h */,
+				AA19F0591294C34D00510126 /* MyCLController.h */,
+				AA19F05A1294C34D00510126 /* MyCLController.m */,
+				AA75D22D1292FF6B000D20F7 /* MapView.m */,
+				AA4AE386129932670098D843 /* PlotRun.h */,
+				AA4AE387129932670098D843 /* PlotRun.m */,
+				AA19EF4B1294A4CD00510126 /* WhereToRun.h */,
+				AA4AD56A1292EE8300425100 /* sizingViewController.h */,
+				AA4AD56B1292EE8300425100 /* sizingViewController.m */,
+				BEA7A664129A057600E37E3E /* CalcMiles.h */,
+				BEA7A665129A057600E37E3E /* CalcMiles.m */,
+				BE10562012A829BA00571DCB /* AboutUs.h */,
+				BE10562112A829BA00571DCB /* AboutUs.m */,
+				AA19F0BF1295666C00510126 /* DistanceCalc.h */,
+				AA19F0C01295666C00510126 /* DistanceCalc.m */,
+				AA49A70912ABF99D000A13F5 /* Speed.h */,
+				AA49A70A12ABF99D000A13F5 /* Speed.m */,
+				AA49A70B12ABF99D000A13F5 /* Speed.xib */,
+				AA4AD56C1292EE8300425100 /* Webservices.h */,
+				AA4AD56D1292EE8300425100 /* Webservices.m */,
+				AA4AD56E1292EE8300425100 /* XMLParser.h */,
+				AA4AD56F1292EE8300425100 /* XMLParser.m */,
+				AA19EF4C1294A4CD00510126 /* WhereToRun.m */,
+				AA4AE3AE129934B20098D843 /* RouteAnnotation.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -147,39 +182,18 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AA4AE3AD129934B20098D843 /* RouteAnnotation.h */,
-				AA4AE3AE129934B20098D843 /* RouteAnnotation.m */,
-				AA4AE386129932670098D843 /* PlotRun.h */,
-				AA4AE387129932670098D843 /* PlotRun.m */,
+				AA49A47E12A83075000A13F5 /* Default.png */,
 				AA4AE388129932670098D843 /* PlotRun.xib */,
 				AA19EE781294910B00510126 /* foot.png */,
 				AA19EE76129490A100510126 /* glass.png */,
-				AA75D22C1292FF6B000D20F7 /* MapView.h */,
-				AA75D22D1292FF6B000D20F7 /* MapView.m */,
 				AA75D22E1292FF6B000D20F7 /* MapView.xib */,
-				AA19EF4B1294A4CD00510126 /* WhereToRun.h */,
-				AA19EF4C1294A4CD00510126 /* WhereToRun.m */,
-				AA19F0591294C34D00510126 /* MyCLController.h */,
-				AA19F05A1294C34D00510126 /* MyCLController.m */,
-				AA19F0BF1295666C00510126 /* DistanceCalc.h */,
-				AA19F0C01295666C00510126 /* DistanceCalc.m */,
 				AA19F0C11295666C00510126 /* DistanceCalc.xib */,
 				AA19EF4D1294A4CD00510126 /* WhereToRun.xib */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				AA4AD5731292EE9900425100 /* sizingViewController.xib */,
-				AA4AD56A1292EE8300425100 /* sizingViewController.h */,
-				AA4AD56B1292EE8300425100 /* sizingViewController.m */,
-				AA4AD56C1292EE8300425100 /* Webservices.h */,
-				AA4AD56D1292EE8300425100 /* Webservices.m */,
-				AA4AD56E1292EE8300425100 /* XMLParser.h */,
-				AA4AD56F1292EE8300425100 /* XMLParser.m */,
 				8D1107310486CEB800E47090 /* integratedCSapp-Info.plist */,
-				BEA7A664129A057600E37E3E /* CalcMiles.h */,
-				BEA7A665129A057600E37E3E /* CalcMiles.m */,
 				BEA7A666129A057600E37E3E /* CalcMiles.xib */,
-				BE10562012A829BA00571DCB /* AboutUs.h */,
-				BE10562112A829BA00571DCB /* AboutUs.m */,
 				BE10562212A829BA00571DCB /* AboutUs.xib */,
 			);
 			name = Resources;
@@ -193,6 +207,7 @@
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
 				AA19F0491294C22700510126 /* CoreLocation.framework */,
 				AA4AE39E129932BD0098D843 /* MapKit.framework */,
+				AA49A50312A9B86B000A13F5 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,6 +273,8 @@
 				AA4AE38A129932670098D843 /* PlotRun.xib in Resources */,
 				BEA7A668129A057600E37E3E /* CalcMiles.xib in Resources */,
 				BE10562412A829BA00571DCB /* AboutUs.xib in Resources */,
+				AA49A47F12A83075000A13F5 /* Default.png in Resources */,
+				AA49A70D12ABF99D000A13F5 /* Speed.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +299,7 @@
 				AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */,
 				BEA7A667129A057600E37E3E /* CalcMiles.m in Sources */,
 				BE10562312A829BA00571DCB /* AboutUs.m in Sources */,
+				AA49A70C12ABF99D000A13F5 /* Speed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

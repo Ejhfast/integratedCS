@@ -21,19 +21,20 @@
     [super viewDidLoad];
 	navArray = [[NSMutableArray alloc] init];
 	[navArray addObject:@"Vibram Converter"];
-	[navArray addObject:@"Distance Mapper"];
+	[navArray addObject:@"Right and Left"];
 	[navArray addObject:@"Where to Run"];
 	[navArray addObject:@"Plot Run"];
 	[navArray addObject:@"Distance Calculator"];
 	[navArray addObject:@"Calc Miles"];
+	[navArray addObject:@"Speed"];
 	[navArray addObject:@"About this App"];
+
 
 
 
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
-
 
 /*
 - (void)viewWillAppear:(BOOL)animated {
@@ -166,6 +167,9 @@
 	}
 	else if (indexPath.row == 5) {
 		[self.navigationController pushViewController:totalMiles animated:YES];
+	}
+	else if (indexPath.row == 6) {
+		[self.navigationController pushViewController:speedView animated:YES];
 	}
 	else {
 		[self.navigationController pushViewController:aboutApp animated:YES];
