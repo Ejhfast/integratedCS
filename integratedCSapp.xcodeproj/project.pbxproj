@@ -42,6 +42,8 @@
 		BE3901B512AD844E001E250F /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3901B412AD844E001E250F /* DemoTableViewController.m */; };
 		BE3901B912AD8466001E250F /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3901B812AD8466001E250F /* PullRefreshTableViewController.m */; };
 		BE3901BE12AD853B001E250F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3901BD12AD853B001E250F /* QuartzCore.framework */; };
+		BE39025912AD9108001E250F /* vibram-five11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE39025812AD9108001E250F /* vibram-five11.jpg */; };
+		BE39025B12AD9139001E250F /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BE39025A12AD9139001E250F /* arrow.png */; };
 		BEA7A667129A057600E37E3E /* CalcMiles.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA7A665129A057600E37E3E /* CalcMiles.m */; };
 		BEA7A668129A057600E37E3E /* CalcMiles.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA7A666129A057600E37E3E /* CalcMiles.xib */; };
 /* End PBXBuildFile section */
@@ -96,10 +98,12 @@
 		BE10562112A829BA00571DCB /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUs.m; path = ../AboutUs.m; sourceTree = "<group>"; };
 		BE10562212A829BA00571DCB /* AboutUs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutUs.xib; sourceTree = "<group>"; };
 		BE3901B412AD844E001E250F /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
-		BE3901B612AD8455001E250F /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoTableViewController.h; path = ../../../../../Dropbox/integratedCS/DemoTableViewController.h; sourceTree = SOURCE_ROOT; };
 		BE3901B712AD845F001E250F /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
 		BE3901B812AD8466001E250F /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
 		BE3901BD12AD853B001E250F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE39025712AD90F8001E250F /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		BE39025812AD9108001E250F /* vibram-five11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vibram-five11.jpg"; sourceTree = "<group>"; };
+		BE39025A12AD9139001E250F /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		BEA7A664129A057600E37E3E /* CalcMiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalcMiles.h; path = ../CalcMiles.h; sourceTree = "<group>"; };
 		BEA7A665129A057600E37E3E /* CalcMiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CalcMiles.m; path = ../CalcMiles.m; sourceTree = "<group>"; };
 		BEA7A666129A057600E37E3E /* CalcMiles.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalcMiles.xib; sourceTree = "<group>"; };
@@ -126,10 +130,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BE39025712AD90F8001E250F /* DemoTableViewController.h */,
 				BE3901B812AD8466001E250F /* PullRefreshTableViewController.m */,
 				BE3901B712AD845F001E250F /* PullRefreshTableViewController.h */,
 				BE3901B412AD844E001E250F /* DemoTableViewController.m */,
-				BE3901B612AD8455001E250F /* DemoTableViewController.h */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* integratedCSappAppDelegate.h */,
@@ -195,6 +199,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BE39025A12AD9139001E250F /* arrow.png */,
+				BE39025812AD9108001E250F /* vibram-five11.jpg */,
 				AA49A47E12A83075000A13F5 /* Default.png */,
 				AA4AE388129932670098D843 /* PlotRun.xib */,
 				AA19EE781294910B00510126 /* foot.png */,
@@ -289,6 +295,8 @@
 				BE10562412A829BA00571DCB /* AboutUs.xib in Resources */,
 				AA49A47F12A83075000A13F5 /* Default.png in Resources */,
 				AA49A70D12ABF99D000A13F5 /* Speed.xib in Resources */,
+				BE39025912AD9108001E250F /* vibram-five11.jpg in Resources */,
+				BE39025B12AD9139001E250F /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
