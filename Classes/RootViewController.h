@@ -14,6 +14,7 @@
 #import "PlotRun.h"
 #import "CalcMiles.h"
 #import "Speed.h"
+#import "DemoTableViewController.h"
 #import "AboutUs.h"
 
 @interface RootViewController : UITableViewController {
@@ -24,6 +25,7 @@
 	PlotRun *plotView;
 	CalcMiles *totalMiles;
 	Speed *speedView;
+	DemoTableViewController *useLess;
 	AboutUs *aboutApp;
 	NSMutableArray *navArray;
 }
@@ -35,6 +37,7 @@
 @property (nonatomic, retain) IBOutlet PlotRun *plotView;
 @property (nonatomic, retain) IBOutlet CalcMiles *totalMiles;
 @property (nonatomic, retain) IBOutlet Speed *speedView;
+@property (nonatomic, retain) IBOutlet DemoTableViewController *useLess;
 @property (nonatomic, retain) IBOutlet AboutUs *aboutApp;
 
 

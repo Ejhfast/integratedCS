@@ -27,6 +27,7 @@
 	[navArray addObject:@"Distance Calculator"];
 	[navArray addObject:@"Calc Miles"];
 	[navArray addObject:@"Speed"];
+	[navArray addObject:@"How much to Run?"];
 	[navArray addObject:@"About this App"];
 
 
@@ -170,6 +171,9 @@
 	}
 	else if (indexPath.row == 6) {
 		[self.navigationController pushViewController:speedView animated:YES];
+	}
+	else if (indexPath.row == 7){
+		[self.navigationController pushViewController:useLess animated:YES];
 	}
 	else {
 		[self.navigationController pushViewController:aboutApp animated:YES];
