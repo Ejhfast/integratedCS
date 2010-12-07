@@ -1,1 +1,3 @@
 *.o
+*.pbxbtree
+*.pbxbsymbols
