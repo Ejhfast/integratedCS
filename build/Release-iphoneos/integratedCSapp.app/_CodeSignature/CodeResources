@@ -6,11 +6,11 @@
 	<dict>
 		<key>AboutUs.nib</key>
 		<data>
-		A7rWWZx8BvIjiw4St7vdm8edmpk=
+		1bZ4onyUT9514QZSNz8nUm7KpSU=
 		</data>
 		<key>CalcMiles.nib</key>
 		<data>
-		+UCh2wWExmgnWNP9o9TzApIAPIk=
+		uwyiYttYFiRYhm7AhjPZz1NxfaI=
 		</data>
 		<key>Default.png</key>
 		<data>
@@ -18,15 +18,15 @@
 		</data>
 		<key>DistanceCalc.nib</key>
 		<data>
-		a0dSCqUZkad860xO3bWPUcDXRYg=
+		gt71naaPYYUJn1+PRykdWe7bsMo=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		v2ks6Bqm5UEFz3PygNb/ZxT78gc=
+		di+JPE9pYSwa13c2Eo/cE8jUKPk=
 		</data>
 		<key>MapView.nib</key>
 		<data>
-		FC6TImB4uy7plhtnClSeI2gjU6c=
+		hLLz4rlHNkabeO7YAvzYeE14SeU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -34,15 +34,19 @@
 		</data>
 		<key>PlotRun.nib</key>
 		<data>
-		F4Y7p6j33jd8m55BJECsU4WJIMM=
+		u67CF0udOs5saxa2Sngb4fvmLIQ=
 		</data>
 		<key>RootViewController.nib</key>
 		<data>
-		0Tipmar9Glgc9xpri6U6VLcgPEA=
+		2BeDPYzRcXvV4YCKcNpyQ9C/im4=
+		</data>
+		<key>Speed.nib</key>
+		<data>
+		e3pVmv0sm92PDGVr3vqt5Ogl3pU=
 		</data>
 		<key>WhereToRun.nib</key>
 		<data>
-		uIXuXMpdMsTqKXdNwSD/nAwv9Bg=
+		QTgOW7O8/gIbvi+FTgCNy71STkk=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -58,7 +62,7 @@
 		</data>
 		<key>sizingViewController.nib</key>
 		<data>
-		4WzqSb1QuxNIawXNopjC3DzXQ4M=
+		wN63vMgWuLj0wA+9Y2pph80n3oo=
 		</data>
 	</dict>
 	<key>rules</key>
