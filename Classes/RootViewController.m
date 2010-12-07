@@ -23,7 +23,7 @@
 	[navArray addObject:@"Vibram Converter"];
 	[navArray addObject:@"Right and Left"];
 	[navArray addObject:@"Where to Run"];
-	[navArray addObject:@"Plot Run"];
+	[navArray addObject:@"Glass Locator"];
 	[navArray addObject:@"Distance Calculator"];
 	[navArray addObject:@"Calc Miles"];
 	[navArray addObject:@"Speed"];

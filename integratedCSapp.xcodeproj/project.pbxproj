@@ -35,6 +35,7 @@
 		AA4AE38A129932670098D843 /* PlotRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA4AE388129932670098D843 /* PlotRun.xib */; };
 		AA4AE39F129932BD0098D843 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4AE39E129932BD0098D843 /* MapKit.framework */; };
 		AA4AE3AF129934B20098D843 /* RouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4AE3AE129934B20098D843 /* RouteAnnotation.m */; };
+		AA63287912AE835B0025DF6D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AA63287812AE835B0025DF6D /* Icon.png */; };
 		AA75D22F1292FF6B000D20F7 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA75D22D1292FF6B000D20F7 /* MapView.m */; };
 		AA75D2301292FF6B000D20F7 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA75D22E1292FF6B000D20F7 /* MapView.xib */; };
 		BE10562312A829BA00571DCB /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = BE10562112A829BA00571DCB /* AboutUs.m */; };
@@ -91,6 +92,7 @@
 		AA4AE39E129932BD0098D843 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AA4AE3AD129934B20098D843 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteAnnotation.h; path = ../RouteAnnotation.h; sourceTree = "<group>"; };
 		AA4AE3AE129934B20098D843 /* RouteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteAnnotation.m; path = ../RouteAnnotation.m; sourceTree = "<group>"; };
+		AA63287812AE835B0025DF6D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		AA75D22C1292FF6B000D20F7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapView.h; path = ../MapView.h; sourceTree = "<group>"; };
 		AA75D22D1292FF6B000D20F7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapView.m; path = ../MapView.m; sourceTree = "<group>"; };
 		AA75D22E1292FF6B000D20F7 /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AA63287812AE835B0025DF6D /* Icon.png */,
 				BE39025A12AD9139001E250F /* arrow.png */,
 				BE39025812AD9108001E250F /* vibram-five11.jpg */,
 				AA49A47E12A83075000A13F5 /* Default.png */,
@@ -297,6 +300,7 @@
 				AA49A70D12ABF99D000A13F5 /* Speed.xib in Resources */,
 				BE39025912AD9108001E250F /* vibram-five11.jpg in Resources */,
 				BE39025B12AD9139001E250F /* arrow.png in Resources */,
+				AA63287912AE835B0025DF6D /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

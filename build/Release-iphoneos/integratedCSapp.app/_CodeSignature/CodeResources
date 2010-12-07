@@ -6,11 +6,11 @@
 	<dict>
 		<key>AboutUs.nib</key>
 		<data>
-		1bZ4onyUT9514QZSNz8nUm7KpSU=
+		ZzR+JEg+QRCBBfosI7qWEc7NrYQ=
 		</data>
 		<key>CalcMiles.nib</key>
 		<data>
-		uwyiYttYFiRYhm7AhjPZz1NxfaI=
+		aXZG3KPDC9eCdYDzVJhK05wA8tQ=
 		</data>
 		<key>Default.png</key>
 		<data>
@@ -18,15 +18,19 @@
 		</data>
 		<key>DistanceCalc.nib</key>
 		<data>
-		gt71naaPYYUJn1+PRykdWe7bsMo=
+		S7GTqPKewD7Bi1y96CDJYlUWcPs=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		BL4QvJPg//h2HnMnMQeHkyBlU50=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		di+JPE9pYSwa13c2Eo/cE8jUKPk=
+		drbuw/Qia9L2uaVrl7HLPLDZN/c=
 		</data>
 		<key>MapView.nib</key>
 		<data>
-		hLLz4rlHNkabeO7YAvzYeE14SeU=
+		5Xu3tXA8NE2pEoUXEyLjrGGzkNc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -34,19 +38,23 @@
 		</data>
 		<key>PlotRun.nib</key>
 		<data>
-		u67CF0udOs5saxa2Sngb4fvmLIQ=
+		zZC/QHJ3XYJp7x1jHz01HvZFrPM=
 		</data>
 		<key>RootViewController.nib</key>
 		<data>
-		2BeDPYzRcXvV4YCKcNpyQ9C/im4=
+		ScewfmY2gihviT77b3/mlN9em7I=
 		</data>
 		<key>Speed.nib</key>
 		<data>
-		e3pVmv0sm92PDGVr3vqt5Ogl3pU=
+		5snj7D6xmmtVwLKJOJkBaMU+vSQ=
 		</data>
 		<key>WhereToRun.nib</key>
 		<data>
-		QTgOW7O8/gIbvi+FTgCNy71STkk=
+		Z6ItH97J1HMAZXVBcOAI4EK63xE=
+		</data>
+		<key>arrow.png</key>
+		<data>
+		oFUbBCPZlZYe96zOW6GvYKKZee0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -62,7 +70,11 @@
 		</data>
 		<key>sizingViewController.nib</key>
 		<data>
-		wN63vMgWuLj0wA+9Y2pph80n3oo=
+		Lq0BdKVcBKdmdItHrJbxdifza/s=
+		</data>
+		<key>vibram-five11.jpg</key>
+		<data>
+		kh1P6FZLUEyWRGYMH+GPht/1SuI=
 		</data>
 	</dict>
 	<key>rules</key>

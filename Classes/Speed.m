@@ -11,27 +11,31 @@
 
 @implementation Speed
 
-@synthesize speedT, prevCord;
+@synthesize speedT, prevCord, prevDate;
 
 - (void) locationUpdate: (CLLocation *) location {
 	counter++;
-	NSLog(@"in here");
-
-	if (prevCord != nil){
-		NSLog(@"in here");
-	if (counter % 100) {
-		double now = [[NSDate date] timeIntervalSince1970];
-		double diff_time = now - prevMilliTime;
-		double fdiffx = location.coordinate.latitude - prevCord.coordinate.latitude;
-		double fdiffy = location.coordinate.longitude - prevCord.coordinate.longitude;
-		double diff_dist = sqrt( pow(fdiffx,2.0) + pow(fdiffy, 2.0));
-		speedT = [[NSString alloc] initWithFormat:"%g", diff_dist];
-		prevMilliTime = now;
+	NSLog(@"in function");
+	if (prevCord != nil && prevDate != nil){
+		NSLog(@"prevcord not nil");
+		if (counter % 1 == 0) {
+			NSLog(@"updating");
+			double now = [prevDate timeIntervalSinceNow] * -1000;
+			NSLog(@"did date");
+			NSLog(@"did diff time %g",now);
+			float fdiffx = location.coordinate.latitude - prevCord.coordinate.latitude;
+			NSLog(@"calc lat diff");
+			float fdiffy = location.coordinate.longitude - prevCord.coordinate.longitude;
+			NSLog(@"calc ong diff");
+			double diff_dist = sqrt( pow(fdiffx,2.0) + pow(fdiffy, 2.0));
+			speedT.text = [[NSString alloc] initWithFormat:@"%.5f", (diff_dist / now)];
+			NSLog(@"updated");
+		}
 	}
 	else {
-		prevCord = location;
-	}
-
+		NSLog(@"else block");
+		prevCord = [[CLLocation alloc] initWithLatitude:location.coordinate.latitude longitude:location.coordinate.longitude];
+		prevDate = [[NSDate alloc] init];
 	}
 }
 

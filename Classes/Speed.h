@@ -11,8 +11,9 @@
 
 
 @interface Speed : UIViewController <MyCLControllerDelegate> {
-	UILabel *speedT;
+	IBOutlet UILabel *speedT;
 	CLLocation *prevCord;
+	NSDate	*prevDate;
 	float prevMilliTime;
 	int counter;
 	MyCLController *locationController;
@@ -24,6 +25,8 @@
 
 @property (nonatomic, retain) IBOutlet UILabel *speedT;
 @property (nonatomic, retain) IBOutlet CLLocation *prevCord;
+@property (nonatomic, retain) IBOutlet NSDate *prevDate;
+
 
 
 
